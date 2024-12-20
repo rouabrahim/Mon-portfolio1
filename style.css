@@ -1,0 +1,263 @@
+@import url(https://fonts.google.com/specimen/Playfair+Display)
+*{font-family: 'poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;}
+    
+header{
+    background-color: rgb(212, 204, 192);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px 0%;
+    
+   
+
+}
+.logo{
+    text-decoration: none;
+    color: rgb(149, 71, 132);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+.navigation a{
+    color: rgb(93, 113, 223);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+  
+}
+.navigation a:hover{
+    color: brown;}
+
+    section{
+        padding: 10px 200px;
+    }
+    .main{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        background: url(jj.jpg)no-repeat ;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+    
+        border-top-width: 0cm;
+    }
+    .main h2{
+        color: #180912;
+        font-size: 1.4cm;
+        font-weight: 500;
+
+    }
+    .main h2 span{
+        display: inline-block;
+        margin-top: 10px;
+        color: rgb(112, 63, 159);
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+
+    .main h3{
+        color: rgb(21, 18, 15);
+        font-size: 1.3cm;
+        font-weight: 200;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .main-btn{
+        color: rgb(37, 39, 43);
+        background-color: cornflowerblue;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 600;
+        display: inline-block;
+        padding: 0.3375cm 1.100cm;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin-bottom: 40px;  
+        transition: 0.7s ease;    
+ }
+ .main-btn:hover{
+    background-color: rgb(68, 68, 216);
+    transform: scale(1.1,1.1);
+ }
+ .social-icons a{
+    color: rgb(82, 15, 52);
+    font-size: 1.7em;
+    padding-right: 20px;
+ }
+ .title{
+    display: flex;
+    justify-content: center;
+color: darkgreen;
+font-size: 2.2em;
+font-weight: 800;
+margin-bottom: 30px;
+
+ }
+
+ .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+ }
+
+ .card{
+    background-color: rgb(205, 217, 205);
+    width: 21.25em;
+    box-shadow: 0 5px 30px rgba(1 1 1/17%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+
+ }
+ .card:hover{
+    transform: scale(1.1);
+    
+ }
+
+ .icon{
+    color: rgb(63, 77, 39);
+    font-size: 8em;
+    text-align: center;
+ }
+ .info{
+    text-align: center;
+ }
+
+ .info h3{
+    color:  rgb(63, 77, 39);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+ }
+ .projects{
+    background-color: rgb(33, 22, 12);
+ }
+ .projects.content{
+    margin-top: 30px;
+
+ }
+ .project-card{
+    background-color: antiquewhite;
+    border: 1px solid #eee8e8;
+    min-height: 10em;
+    width: 23em;
+    overflow: hidden;
+border-radius: 10px;
+margin: 20px;
+transition: 0.7s ease;
+ }
+ .project-card:hover{
+    transform: scale(1.1);
+ }
+ .project-card:hover  .project-image   {
+   opacity: 0.9;}
+
+ .project-image img{
+    width:100%
+ }
+
+.project-info{
+    padding: 1em;
+
+}
+.project-category{
+    font-size: 0.8em;
+    color: black;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight:800;
+     margin-top: 10px;
+}
+ 
+.more-details{
+    text-decoration: none;
+    color: rgb(92, 89, 90);
+
+}
+.more-details:hover{
+    color: #4e1717;
+}
+.contact .icon{
+    font-size: 4.5em;
+
+}
+.contact .info h3{
+    color: black;
+
+}
+.contact .info p{
+    font-size: 1.5em;
+}
+.footer{
+    background-color: rgb(212, 204, 192);
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight:600;
+}
+.footer-title span{
+    color:rgb(93, 113, 223) ;
+}
+@media(max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+}
+.navigation a{
+   padding-left: 10px;
+}
+.title{
+    font-size: 1.8em;
+}
+section
+{
+    padding: 80px 20px;
+}
+.main-content h2{
+    font-size: 1em;
+}
+.main-content h3{
+    font-size: 1.6em;
+
+
+}
+.ontent{
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: rgb(227, 219, 219);
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+details {
+    margin-top: 10px;
+    background: #b3c8b6; 
+    padding: 10px;
+    border-radius: 8px; 
+}
+
+
